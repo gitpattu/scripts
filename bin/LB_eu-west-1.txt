@@ -1,0 +1,1335 @@
+LB Name: private-batrasio-self-pro-eu
+Type: network
+  TG:
+    pro-eu-batrasio-self-self
+      Name: batrasio-7-pro-cloud-self-aws-eu-west-1 
+      Id: i-0e85a19f44f014467
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+      Name: batrasio-1-pro-cloud-self-aws-eu-west-1 
+      Id: i-01a5293bd6547cb80
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+      Name: batrasio-2-pro-cloud-self-aws-eu-west-1 
+      Id: i-0bf5732b4cb11a387
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+LB Name: private-metamalote-prod-eu
+Type: network
+  TG:
+    prod-eu-metamalote
+      Name: metamalote-2-pro-cloud-general-aws-eu-west-1 
+      Id: i-0a493c2c824ec3483
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-3-pro-cloud-general-aws-eu-west-1 
+      Id: i-04a87fc03ca34e5de
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-1-pro-cloud-general-aws-eu-west-1 
+      Id: i-01a49fe4fb82c30a7
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+LB Name: private-batrasio-newscorp-pro
+Type: network
+  TG:
+    batrasio-newscorp-1515-pro
+      Name: batrasio-1-pro-cloud-newscorp-aws-eu-west-1 
+      Id: i-03ef2ad1d5087c050
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+LB Name: a5d94d80a622e466aa241f02286c9c12
+Type: network
+  TG:
+    k8s-nginxpub-nginxpub-d218d37f95
+      Name: general 
+      Id: i-0d6b0c0272345f97e
+      HealthStatus: healthy
+      HealthCheckPort: 31110
+      InstancePort: 30500
+
+
+      Name: serviceops 
+      Id: i-095f549869dfcf0c6
+      HealthStatus: unhealthy
+      HealthCheckPort: 31110
+      InstancePort: 30500
+
+
+      Name: eks-tools 
+      Id: i-009aaaa6099ca4831
+      HealthStatus: unhealthy
+      HealthCheckPort: 31110
+      InstancePort: 30500
+
+
+      Name: serviceops 
+      Id: i-0f6dc7ebded97aabc
+      HealthStatus: unhealthy
+      HealthCheckPort: 31110
+      InstancePort: 30500
+
+
+      Name: serviceops 
+      Id: i-0b03226e3a947f6a3
+      HealthStatus: unhealthy
+      HealthCheckPort: 31110
+      InstancePort: 30500
+
+
+      Name: serviceops 
+      Id: i-056a8e16c23a5fe1b
+      HealthStatus: unhealthy
+      HealthCheckPort: 31110
+      InstancePort: 30500
+
+
+      Name: serviceops 
+      Id: i-0f788eb233e4e01fc
+      HealthStatus: unhealthy
+      HealthCheckPort: 31110
+      InstancePort: 30500
+
+
+      Name: eks-tools 
+      Id: i-0d02096d5a6496435
+      HealthStatus: unhealthy
+      HealthCheckPort: 31110
+      InstancePort: 30500
+
+
+      Name: general 
+      Id: i-03a3efa2345b58803
+      HealthStatus: healthy
+      HealthCheckPort: 31110
+      InstancePort: 30500
+
+
+      Name: serviceops 
+      Id: i-0df1f44c6f0501f74
+      HealthStatus: unhealthy
+      HealthCheckPort: 31110
+      InstancePort: 30500
+
+
+      Name: general 
+      Id: i-0bd16885e84ba3ad4
+      HealthStatus: healthy
+      HealthCheckPort: 31110
+      InstancePort: 30500
+
+
+      Name: general 
+      Id: i-0449e342032152b0d
+      HealthStatus: healthy
+      HealthCheckPort: 31110
+      InstancePort: 30500
+
+
+      Name: eks-tools 
+      Id: i-0271d85dbe46ac552
+      HealthStatus: unhealthy
+      HealthCheckPort: 31110
+      InstancePort: 30500
+
+
+LB Name: af6e35c4b4aea4294abac6262f757034
+Type: network
+  TG:
+    k8s-devo-collecto-5c76edba70
+  TG:
+    k8s-devo-collecto-f7b2fb3fc5
+LB Name: private-batrasio-deloitte-pro
+Type: network
+  TG:
+    batrasio-deloitte-1514-pro
+      Name: batrasio-2-pro-cloud-deloitte-aws-eu-west-1 
+      Id: i-05ecc3e9cb74c77de
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+      Name: batrasio-1-pro-cloud-deloitte-aws-eu-west-1 
+      Id: i-0655b4c94836390fa
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+  TG:
+    batrasio-deloitte-1515-pro
+      Name: batrasio-1-pro-cloud-deloitte-aws-eu-west-1 
+      Id: i-0655b4c94836390fa
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+      Name: batrasio-2-pro-cloud-deloitte-aws-eu-west-1 
+      Id: i-05ecc3e9cb74c77de
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+LB Name: public-api-serrea-pro
+Type: network
+  TG:
+    public-api-serrea-http-pro
+  TG:
+    public-api-serrea-pro
+LB Name: private-batrasio-panda-prod-eu
+Type: network
+  TG:
+    prod-eu-batrasio-panda-imp
+      Name: batrasio-1-pro-cloud-temp-panda-aws-eu-west-1 
+      Id: i-00419da5129f3c52c
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+LB Name: public-batrasio-panda-prod-eu
+Type: network
+  TG:
+    prod-eu-batrasio-panda-http
+      Name: batrasio-1-pro-cloud-temp-panda-aws-eu-west-1 
+      Id: i-00419da5129f3c52c
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+  TG:
+    prod-eu-batrasio-panda-syslog
+      Name: batrasio-1-pro-cloud-temp-panda-aws-eu-west-1 
+      Id: i-00419da5129f3c52c
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: public-batrasio-panda-http-pro
+Type: network
+  TG:
+    batrasio-panda-http-pro
+      Name: batrasio-3-pro-cloud-panda-aws-eu-west-1 
+      Id: i-0606e81fe3dcb82e7
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+      Name: batrasio-1-pro-cloud-panda-aws-eu-west-1 
+      Id: i-01cdf7057982ecf64
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+LB Name: Alcohol-HTTP-Newscorp
+Type: network
+  TG:
+    Alcohol-HTTP-80-Newscorp
+      Name: None 
+      Id: 10.20.0.95
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 10.20.0.108
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+LB Name: private-metamalote-bitdefender
+Type: network
+  TG:
+    prod-eu-metamalote-bitdefender
+      Name: metamalote-1-pro-cloud-bitdefender-aws-eu-west-1 
+      Id: i-026077a25f1a5736a
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-2-pro-cloud-bitdefender-aws-eu-west-1 
+      Id: i-005fa077fb504bd66
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+LB Name: public-batrasio-deloitte-pro
+Type: network
+  TG:
+    batrasio-deloitte-443-pro
+      Name: batrasio-2-pro-cloud-deloitte-aws-eu-west-1 
+      Id: i-05ecc3e9cb74c77de
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-1-pro-cloud-deloitte-aws-eu-west-1 
+      Id: i-0655b4c94836390fa
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: a34be931338a244988a764cb9f52e108
+Type: network
+  TG:
+    k8s-nginxint-nginxint-73214fcc27
+      Name: eks-tools 
+      Id: i-0271d85dbe46ac552
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31290
+
+
+      Name: serviceops 
+      Id: i-056a8e16c23a5fe1b
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31290
+
+
+      Name: eks-tools 
+      Id: i-0d02096d5a6496435
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31290
+
+
+      Name: serviceops 
+      Id: i-0f788eb233e4e01fc
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31290
+
+
+      Name: eks-tools 
+      Id: i-009aaaa6099ca4831
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31290
+
+
+      Name: general 
+      Id: i-0bd16885e84ba3ad4
+      HealthStatus: healthy
+      HealthCheckPort: 31292
+      InstancePort: 31290
+
+
+      Name: general 
+      Id: i-0449e342032152b0d
+      HealthStatus: healthy
+      HealthCheckPort: 31292
+      InstancePort: 31290
+
+
+      Name: general 
+      Id: i-0d6b0c0272345f97e
+      HealthStatus: healthy
+      HealthCheckPort: 31292
+      InstancePort: 31290
+
+
+      Name: serviceops 
+      Id: i-0df1f44c6f0501f74
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31290
+
+
+      Name: serviceops 
+      Id: i-095f549869dfcf0c6
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31290
+
+
+      Name: serviceops 
+      Id: i-0b03226e3a947f6a3
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31290
+
+
+      Name: serviceops 
+      Id: i-0f6dc7ebded97aabc
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31290
+
+
+      Name: general 
+      Id: i-03a3efa2345b58803
+      HealthStatus: healthy
+      HealthCheckPort: 31292
+      InstancePort: 31290
+
+
+  TG:
+    k8s-nginxint-nginxint-8603e7fb91
+      Name: eks-tools 
+      Id: i-0271d85dbe46ac552
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31074
+
+
+      Name: serviceops 
+      Id: i-056a8e16c23a5fe1b
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31074
+
+
+      Name: serviceops 
+      Id: i-095f549869dfcf0c6
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31074
+
+
+      Name: general 
+      Id: i-0d6b0c0272345f97e
+      HealthStatus: healthy
+      HealthCheckPort: 31292
+      InstancePort: 31074
+
+
+      Name: eks-tools 
+      Id: i-009aaaa6099ca4831
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31074
+
+
+      Name: serviceops 
+      Id: i-0f6dc7ebded97aabc
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31074
+
+
+      Name: general 
+      Id: i-0449e342032152b0d
+      HealthStatus: healthy
+      HealthCheckPort: 31292
+      InstancePort: 31074
+
+
+      Name: serviceops 
+      Id: i-0df1f44c6f0501f74
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31074
+
+
+      Name: serviceops 
+      Id: i-0b03226e3a947f6a3
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31074
+
+
+      Name: general 
+      Id: i-0bd16885e84ba3ad4
+      HealthStatus: healthy
+      HealthCheckPort: 31292
+      InstancePort: 31074
+
+
+      Name: eks-tools 
+      Id: i-0d02096d5a6496435
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31074
+
+
+      Name: serviceops 
+      Id: i-0f788eb233e4e01fc
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31074
+
+
+      Name: general 
+      Id: i-03a3efa2345b58803
+      HealthStatus: healthy
+      HealthCheckPort: 31292
+      InstancePort: 31074
+
+
+  TG:
+    k8s-nginxint-nginxint-d493aa068c
+      Name: general 
+      Id: i-0d6b0c0272345f97e
+      HealthStatus: healthy
+      HealthCheckPort: 31292
+      InstancePort: 32364
+
+
+      Name: serviceops 
+      Id: i-056a8e16c23a5fe1b
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 32364
+
+
+      Name: serviceops 
+      Id: i-0b03226e3a947f6a3
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 32364
+
+
+      Name: eks-tools 
+      Id: i-009aaaa6099ca4831
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 32364
+
+
+      Name: serviceops 
+      Id: i-0f6dc7ebded97aabc
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 32364
+
+
+      Name: general 
+      Id: i-0bd16885e84ba3ad4
+      HealthStatus: healthy
+      HealthCheckPort: 31292
+      InstancePort: 32364
+
+
+      Name: serviceops 
+      Id: i-0df1f44c6f0501f74
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 32364
+
+
+      Name: general 
+      Id: i-0449e342032152b0d
+      HealthStatus: healthy
+      HealthCheckPort: 31292
+      InstancePort: 32364
+
+
+      Name: serviceops 
+      Id: i-095f549869dfcf0c6
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 32364
+
+
+      Name: eks-tools 
+      Id: i-0271d85dbe46ac552
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 32364
+
+
+      Name: eks-tools 
+      Id: i-0d02096d5a6496435
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 32364
+
+
+      Name: serviceops 
+      Id: i-0f788eb233e4e01fc
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 32364
+
+
+      Name: general 
+      Id: i-03a3efa2345b58803
+      HealthStatus: healthy
+      HealthCheckPort: 31292
+      InstancePort: 32364
+
+
+  TG:
+    k8s-nginxint-nginxint-f3d5c7f4c8
+      Name: general 
+      Id: i-0d6b0c0272345f97e
+      HealthStatus: healthy
+      HealthCheckPort: 31292
+      InstancePort: 31653
+
+
+      Name: eks-tools 
+      Id: i-009aaaa6099ca4831
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31653
+
+
+      Name: serviceops 
+      Id: i-095f549869dfcf0c6
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31653
+
+
+      Name: serviceops 
+      Id: i-0f6dc7ebded97aabc
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31653
+
+
+      Name: serviceops 
+      Id: i-056a8e16c23a5fe1b
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31653
+
+
+      Name: serviceops 
+      Id: i-0b03226e3a947f6a3
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31653
+
+
+      Name: eks-tools 
+      Id: i-0d02096d5a6496435
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31653
+
+
+      Name: serviceops 
+      Id: i-0f788eb233e4e01fc
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31653
+
+
+      Name: general 
+      Id: i-03a3efa2345b58803
+      HealthStatus: healthy
+      HealthCheckPort: 31292
+      InstancePort: 31653
+
+
+      Name: serviceops 
+      Id: i-0df1f44c6f0501f74
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31653
+
+
+      Name: general 
+      Id: i-0449e342032152b0d
+      HealthStatus: healthy
+      HealthCheckPort: 31292
+      InstancePort: 31653
+
+
+      Name: eks-tools 
+      Id: i-0271d85dbe46ac552
+      HealthStatus: unhealthy
+      HealthCheckPort: 31292
+      InstancePort: 31653
+
+
+      Name: general 
+      Id: i-0bd16885e84ba3ad4
+      HealthStatus: healthy
+      HealthCheckPort: 31292
+      InstancePort: 31653
+
+
+LB Name: AlcoholHTTP
+Type: network
+  TG:
+    Alcohol-HTTP-80
+      Name: None 
+      Id: 172.17.57.175
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.35.185
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.42.40
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.61.6
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.32.139
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.65
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.35.202
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.250
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.124
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.160
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.32.153
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.36.235
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.224
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.62.54
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.79
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.155
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.132
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.58
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.6
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.8
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.4
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.127
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.211
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.60.142
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.236
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.234
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.62.43
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.55.138
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.44.132
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.62
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.80
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.59
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.108
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.49.140
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.110
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.175
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.55.169
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.55
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.12.70
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.17.37.102
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+  TG:
+    batrasio-shared-http-prod-eu
+      Name: batrasio-3-pro-cloud-shared-aws-eu-west-1 
+      Id: i-0e4bb95e49b556c6c
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+      Name: batrasio-4-pro-cloud-shared-aws-eu-west-1 
+      Id: i-0f850e6f2e666fb2f
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+      Name: batrasio-1-pro-cloud-shared-aws-eu-west-1 
+      Id: i-0145a363ba192ac9b
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+      Name: batrasio-2-pro-cloud-shared-aws-eu-west-1 
+      Id: i-097cabc15dd9fb7e4
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+LB Name: public-batrasio-panda-pro
+Type: network
+  TG:
+    batrasio-panda-syslog-PFO-3
+      Name: batrasio-1-pro-cloud-temp-panda-aws-eu-west-1 
+      Id: i-00419da5129f3c52c
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+  TG:
+    batrasio-panda-syslog-pro
+      Name: batrasio-1-pro-cloud-panda-aws-eu-west-1 
+      Id: i-01cdf7057982ecf64
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-3-pro-cloud-panda-aws-eu-west-1 
+      Id: i-0606e81fe3dcb82e7
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: public-batrasio-shared-pro
+Type: network
+  TG:
+    batrasio-shared-443-pro
+      Name: batrasio-1-pro-cloud-shared-aws-eu-west-1 
+      Id: i-0145a363ba192ac9b
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-2-pro-cloud-shared-aws-eu-west-1 
+      Id: i-097cabc15dd9fb7e4
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-3-pro-cloud-shared-aws-eu-west-1 
+      Id: i-0e4bb95e49b556c6c
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-4-pro-cloud-shared-aws-eu-west-1 
+      Id: i-0f850e6f2e666fb2f
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: private-batrasio-panda-pro
+Type: network
+  TG:
+    batrasio-panda-1515-pro
+      Name: batrasio-1-pro-cloud-panda-aws-eu-west-1 
+      Id: i-01cdf7057982ecf64
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+      Name: batrasio-3-pro-cloud-panda-aws-eu-west-1 
+      Id: i-0606e81fe3dcb82e7
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+  TG:
+    batrasio-panda-self-pro
+      Name: batrasio-1-pro-cloud-panda-aws-eu-west-1 
+      Id: i-01cdf7057982ecf64
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+      Name: batrasio-3-pro-cloud-panda-aws-eu-west-1 
+      Id: i-0606e81fe3dcb82e7
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+LB Name: private-batrasio-shared-pro
+Type: network
+  TG:
+    batrasio-shared-1514-pro
+      Name: batrasio-4-pro-cloud-shared-aws-eu-west-1 
+      Id: i-0f850e6f2e666fb2f
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+      Name: batrasio-3-pro-cloud-shared-aws-eu-west-1 
+      Id: i-0e4bb95e49b556c6c
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+      Name: batrasio-2-pro-cloud-shared-aws-eu-west-1 
+      Id: i-097cabc15dd9fb7e4
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+      Name: batrasio-1-pro-cloud-shared-aws-eu-west-1 
+      Id: i-0145a363ba192ac9b
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+  TG:
+    batrasio-shared-1515-pro
+      Name: batrasio-4-pro-cloud-shared-aws-eu-west-1 
+      Id: i-0f850e6f2e666fb2f
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+      Name: batrasio-2-pro-cloud-shared-aws-eu-west-1 
+      Id: i-097cabc15dd9fb7e4
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+      Name: batrasio-3-pro-cloud-shared-aws-eu-west-1 
+      Id: i-0e4bb95e49b556c6c
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+      Name: batrasio-1-pro-cloud-shared-aws-eu-west-1 
+      Id: i-0145a363ba192ac9b
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+LB Name: public-batrasio-bitdefender
+Type: network
+  TG:
+    batrasio-bitdefender-http-pro
+      Name: batrasio-3-pro-cloud-bitdefender-aws-eu-west-1 
+      Id: i-05b4a0b509d0267c6
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+      Name: batrasio-4-pro-cloud-bitdefender-aws-eu-west-1 
+      Id: i-06dee7bf5148b3954
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+LB Name: ad6d8e3c75133425d94533ec3f0a2272
+Type: network
+  TG:
+    k8s-devo-serrease-5fd2c53682
+LB Name: private-api-serrea-pro
+Type: application
+  TG:
+    private-api-serrea-http-pro
+  TG:
+    private-api-serrea-https-pro
+LB Name: public-api-pro
+Type: application
+  TG:
+    k8s-forward-internal
+      Name: None 
+      Id: 172.17.53.51
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 443
+
+
+      Name: None 
+      Id: 172.17.44.221
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 443
+
+
+      Name: None 
+      Id: 172.17.74.41
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 443
+
+
+  TG:
+    public-api-lookups-pro
+      Name: lookup-2-prod-eu-cloud-shared-aws-eu-west-1 
+      Id: i-0a1a405cab72ad543
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: lookup-1-prod-eu-cloud-shared-aws-eu-west-1 
+      Id: i-022687bd7155f0536
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: public-app-pro
+Type: application
+  TG:
+    k8s-forward-internal-app
+      Name: None 
+      Id: 172.17.53.51
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: None 
+      Id: 172.17.44.221
+      HealthStatus: unused
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: None 
+      Id: 172.17.74.41
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+  TG:
+    public-app-pro
+      Name: webapp-1-pro-cloud-shared-aws-eu-west-1 
+      Id: i-0c8ee98c9ceeb4ad6
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: webapp-2-pro-cloud-shared-aws-eu-west-1 
+      Id: i-08af03c51e91729e2
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: private-api-tapu-pro
+Type: application
+  TG:
+    api-tapu-pro
+  TG:
+    k8s-forward
+      Name: None 
+      Id: 172.17.53.51
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 443
+
+
+      Name: None 
+      Id: 172.17.44.221
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 443
+
+
+      Name: None 
+      Id: 172.17.74.41
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 443
+
+
+  TG:
+    private-api-lookups-pro
+      Name: lookup-2-prod-eu-cloud-shared-aws-eu-west-1 
+      Id: i-0a1a405cab72ad543
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: lookup-1-prod-eu-cloud-shared-aws-eu-west-1 
+      Id: i-022687bd7155f0536
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: monitoring-cluster-prod-eu
+Type: application
+  TG:
+    prod-eu-monitoring-cluster-9090
+      Name: monitoring-1-infra-cloud-noc-aws-eu-west-1 
+      Id: i-0fd18728be57d7ddb
+      HealthStatus: healthy
+      HealthCheckPort: 9090
+      InstancePort: 9090
+
+
+      Name: monitoring-2-infra-cloud-noc-aws-eu-west-1 
+      Id: i-0972d466cb70262ed
+      HealthStatus: healthy
+      HealthCheckPort: 9090
+      InstancePort: 9090
+
+
+  TG:
+    prod-eu-monitoring-cluster-9093
+      Name: monitoring-1-infra-cloud-noc-aws-eu-west-1 
+      Id: i-0fd18728be57d7ddb
+      HealthStatus: unhealthy
+      HealthCheckPort: 9093
+      InstancePort: 9093
+
+
+      Name: monitoring-2-infra-cloud-noc-aws-eu-west-1 
+      Id: i-0972d466cb70262ed
+      HealthStatus: unhealthy
+      HealthCheckPort: 9093
+      InstancePort: 9093
+
+

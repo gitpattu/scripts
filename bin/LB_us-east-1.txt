@@ -1,0 +1,5798 @@
+LB Name: public-batrasio-otis-pro
+Type: network
+  TG:
+    batrasio-otis-443-pro
+      Name: batrasio-2-pro-cloud-otis-aws-us-east-1 
+      Id: i-0017bdd3a343dbd7e
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-1-pro-cloud-otis-aws-us-east-1 
+      Id: i-065975b12169b3847
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: private-batrasio-nike-pro
+Type: network
+  TG:
+    batrasio-nike-1514-pro
+      Name: batrasio-3-pro-cloud-nike-aws-us-east-1 
+      Id: i-07b4d0822afb8c860
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+      Name: batrasio-2-pro-cloud-nike-aws-us-east-1 
+      Id: i-06c80ea4d141a2c15
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+      Name: batrasio-1-pro-cloud-nike-aws-us-east-1 
+      Id: i-03efd7f298aec23ce
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+      Name: batrasio-4-pro-cloud-nike-aws-us-east-1 
+      Id: i-069a40a9a7d710856
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+  TG:
+    batrasio-nike-1515-pro
+      Name: batrasio-3-pro-cloud-nike-aws-us-east-1 
+      Id: i-07b4d0822afb8c860
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+      Name: batrasio-2-pro-cloud-nike-aws-us-east-1 
+      Id: i-06c80ea4d141a2c15
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+      Name: batrasio-4-pro-cloud-nike-aws-us-east-1 
+      Id: i-069a40a9a7d710856
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+      Name: batrasio-1-pro-cloud-nike-aws-us-east-1 
+      Id: i-03efd7f298aec23ce
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+LB Name: private-batrasio-otis-pro
+Type: network
+  TG:
+    batrasio-otis-1514-pro
+      Name: batrasio-2-pro-cloud-otis-aws-us-east-1 
+      Id: i-0017bdd3a343dbd7e
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+      Name: batrasio-1-pro-cloud-otis-aws-us-east-1 
+      Id: i-065975b12169b3847
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+  TG:
+    batrasio-otis-1515-pro
+      Name: batrasio-2-pro-cloud-otis-aws-us-east-1 
+      Id: i-0017bdd3a343dbd7e
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+      Name: batrasio-1-pro-cloud-otis-aws-us-east-1 
+      Id: i-065975b12169b3847
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+LB Name: private-batrasio-shared-pro
+Type: network
+  TG:
+    batrasio-shared-1514-pro
+      Name: batrasio-1-pro-cloud-internal-aws-us-east-1 
+      Id: i-02e538287536dada6
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+      Name: batrasio-2-pro-cloud-internal-aws-us-east-1 
+      Id: i-040363bcaf973ba5a
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+  TG:
+    batrasio-shared-15140-pro
+      Name: batrasio-1-pro-cloud-internal-aws-us-east-1 
+      Id: i-02e538287536dada6
+      HealthStatus: healthy
+      HealthCheckPort: 15140
+      InstancePort: 15140
+
+
+      Name: batrasio-2-pro-cloud-internal-aws-us-east-1 
+      Id: i-040363bcaf973ba5a
+      HealthStatus: healthy
+      HealthCheckPort: 15140
+      InstancePort: 15140
+
+
+  TG:
+    batrasio-shared-1515-pro
+      Name: batrasio-3-pro-cloud-internal-aws-us-east-1 
+      Id: i-021d98dd39ce5ec29
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+      Name: batrasio-1-pro-cloud-internal-aws-us-east-1 
+      Id: i-02e538287536dada6
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+LB Name: public-batrasio-optivmdr-pro
+Type: network
+  TG:
+    batrasio-optivmdr-443-pro
+      Name: batrasio-1-pro-cloud-optivmdr-aws-us-east-1 
+      Id: i-0b3c55812d319ac70
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-2-pro-cloud-optivmdr-aws-us-east-1 
+      Id: i-0723eb275f3eee743
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: private-metamalote-peer-euw1
+Type: network
+  TG:
+    prod-peer-euw1-metamalote
+      Name: metamalote-1-pro-cloud-peer-euw1-aws-us-east-1 
+      Id: i-001aadc18e3918f12
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-2-pro-cloud-peer-euw1-aws-us-east-1 
+      Id: i-081ce6e59c6ca2dfa
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+LB Name: public-alcohol-newscorp-us-pro
+Type: network
+  TG:
+    alcohol-newscorp-80-pro
+      Name: None 
+      Id: 172.25.9.245
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.33
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.22
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.115
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.146
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.232
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.48
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.214
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.83
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.212
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.64
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.152
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.181
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.12
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.58
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.10
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.96
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.221
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.202
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.162
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.114
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.246
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.145
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.73
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.143
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.49
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.88
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.82
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.232
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.119
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.86
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.91
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+LB Name: priv-metamalote-shared2-us
+Type: network
+  TG:
+    us-metamalote-shared2
+      Name: metamalote-2-pro-cloud-shared2-aws-us-east-1 
+      Id: i-06b0441291c4d2cbd
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-3-pro-cloud-shared2-aws-us-east-1 
+      Id: i-0347bcae7c849e95b
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-4-pro-cloud-shared2-aws-us-east-1 
+      Id: i-0e727a370b72728bc
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-1-pro-cloud-shared2-aws-us-east-1 
+      Id: i-03f7c3adc21e8fb62
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-5-pro-cloud-shared2-aws-us-east-1 
+      Id: i-0d20808bbf5296f64
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+LB Name: priv-metamalote-shared4-us
+Type: network
+  TG:
+    us-metamalote-shared4
+      Name: metamalote-5-pro-cloud-shared4-aws-us-east-1 
+      Id: i-0a861f5d68844154f
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-1-pro-cloud-shared4-aws-us-east-1 
+      Id: i-07505fd7571bff55d
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-4-pro-cloud-shared4-aws-us-east-1 
+      Id: i-045c6250fd37fb39d
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-3-pro-cloud-shared4-aws-us-east-1 
+      Id: i-05e4ddeba183cdab6
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-2-pro-cloud-shared4-aws-us-east-1 
+      Id: i-004b967bb097d649d
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+LB Name: public-api-serrea-pro
+Type: network
+  TG:
+    public-api-serrea-http-pro
+  TG:
+    public-api-serrea-https-pro
+LB Name: public-batrasio-att-pro
+Type: network
+  TG:
+    batrasio-att2-443-pro
+      Name: batrasio-1-pro-cloud-att-aws-us-east-1 
+      Id: i-07c94d22d582762dd
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-2-pro-cloud-att-aws-us-east-1  
+      Id: i-007174c4d3e0defcc
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: private-metamalote-nike-prod-us
+Type: network
+  TG:
+    prod-us-metamalote-nike
+      Name: metamalote-2-pro-cloud-nike-aws-us-east-1 
+      Id: i-03ab81f8c66f0730a
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-1-pro-cloud-nike-aws-us-east-1 
+      Id: i-05bf74319ceeed11e
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+LB Name: private-batrasio-cs-pro
+Type: network
+  TG:
+    batrasio-criticalstart-1514-pro
+      Name: batrasio-1-pro-cloud-criticalstart-aws-us-east-1 
+      Id: i-0c9825f259254eea4
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+      Name: batrasio-2-pro-cloud-criticalstart-aws-us-east-1 
+      Id: i-04e2f490d9f721a6e
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+  TG:
+    batrasio-criticalstart-1515-pro
+      Name: batrasio-1-pro-cloud-criticalstart-aws-us-east-1 
+      Id: i-0c9825f259254eea4
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+      Name: batrasio-2-pro-cloud-criticalstart-aws-us-east-1 
+      Id: i-04e2f490d9f721a6e
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+LB Name: public-alcohol-hrblock-pro
+Type: network
+  TG:
+    alcohol-hrblock-http-pro
+      Name: None 
+      Id: 172.25.6.81
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.29
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.190
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.95
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.109
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.247
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.165
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.161
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.136
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.196
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.216
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.173
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.103
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.40
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.239
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.109
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.204
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.67
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.116
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.250
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.193
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.177
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.210
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.17
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.176
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.27
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.29
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.13
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.241
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.99
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.95
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.201
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+LB Name: AlcoholHTTP
+Type: network
+  TG:
+    batrasio-shared-http-prod-us
+      Name: batrasio-3-pro-cloud-shared-aws-us-east-1 
+      Id: i-048bc47ef7a606e0e
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+      Name: batrasio-1-pro-cloud-shared-aws-us-east-1 
+      Id: i-004af32bb64bd59ac
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+      Name: batrasio-2-pro-cloud-shared-aws-us-east-1 
+      Id: i-06241cbe8a5d0c2eb
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+      Name: batrasio-5-pro-cloud-shared-aws-us-east-1 
+      Id: i-0e8ac2525444ac8f0
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+      Name: batrasio-4-pro-cloud-shared-aws-us-east-1 
+      Id: i-0f654cb48b2b06aaf
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+LB Name: public-batrasio-cs-pro
+Type: network
+  TG:
+    batrasio-criticalstart-443-pro
+      Name: batrasio-1-pro-cloud-criticalstart-aws-us-east-1 
+      Id: i-0c9825f259254eea4
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-2-pro-cloud-criticalstart-aws-us-east-1 
+      Id: i-04e2f490d9f721a6e
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: http-soc2-test
+Type: network
+  TG:
+    soc2-http-alcohol
+      Name: None 
+      Id: 172.25.12.107
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.12.38
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.12.28
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.12.111
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+LB Name: public-batrasio-hrblock-pro
+Type: network
+  TG:
+    batrasio-hrblock-443-pro
+      Name: batrasio-2-pro-cloud-hrblock-aws-us-east-1 
+      Id: i-04b8245657e3638a0
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-1-pro-cloud-hrblock-aws-us-east-1 
+      Id: i-065859b96fb03fdb8
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: public-batrasio-newscorp-us-pro
+Type: network
+  TG:
+    batrasio-newscorp-us-443-pro
+      Name: batrasio-1-pro-cloud-newscorp-aws-us-east-1 
+      Id: i-06927dca9ebb6df58
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-2-pro-cloud-newscorp-aws-us-east-1 
+      Id: i-061d80ae7d26a5d0f
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: public-batrasio-shared-pro
+Type: network
+  TG:
+    batrasio-shared-443-pro
+      Name: batrasio-5-pro-cloud-shared-aws-us-east-1 
+      Id: i-0e8ac2525444ac8f0
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-2-pro-cloud-shared-aws-us-east-1 
+      Id: i-06241cbe8a5d0c2eb
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-3-pro-cloud-shared-aws-us-east-1 
+      Id: i-048bc47ef7a606e0e
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-4-pro-cloud-shared-aws-us-east-1 
+      Id: i-0f654cb48b2b06aaf
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-1-pro-cloud-shared-aws-us-east-1 
+      Id: i-004af32bb64bd59ac
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: private-batrasio-self-pro-us
+Type: network
+  TG:
+    batrasio-self-1514-pro-us
+      Name: batrasio-2-pro-cloud-self-aws-us-east-1 
+      Id: i-0d85097fd1cd070c2
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+      Name: batrasio-1-pro-cloud-self-aws-us-east-1 
+      Id: i-05419e411c216e90c
+      HealthStatus: unhealthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+      Name: batrasio-3-pro-cloud-self-aws-us-east-1 
+      Id: i-05da88192352db420
+      HealthStatus: unhealthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+  TG:
+    batrasio-self-1515-pro-us
+      Name: batrasio-1-pro-cloud-self-aws-us-east-1 
+      Id: i-05419e411c216e90c
+      HealthStatus: unhealthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+      Name: batrasio-3-pro-cloud-self-aws-us-east-1 
+      Id: i-05da88192352db420
+      HealthStatus: unhealthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+      Name: batrasio-2-pro-cloud-self-aws-us-east-1 
+      Id: i-0d85097fd1cd070c2
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+LB Name: metamalote-datanode-edge-poc
+Type: network
+  TG:
+    metamalote-datanode-edge-poc
+      Name: metamalote-2-pro-cloud-general-aws-us-east-1 
+      Id: i-055bba7fc3303d881
+      HealthStatus: healthy
+      HealthCheckPort: 10100
+      InstancePort: 10100
+
+
+      Name: metamalote-1-pro-cloud-general-aws-us-east-1 
+      Id: i-05c72b3e20428ae0e
+      HealthStatus: healthy
+      HealthCheckPort: 10100
+      InstancePort: 10100
+
+
+      Name: metamalote-4-pro-cloud-general-aws-us-east-1 
+      Id: i-0f20845c955179ebf
+      HealthStatus: healthy
+      HealthCheckPort: 10100
+      InstancePort: 10100
+
+
+      Name: metamalote-3-pro-cloud-general-aws-us-east-1 
+      Id: i-07d8ff3f40ac92849
+      HealthStatus: healthy
+      HealthCheckPort: 10100
+      InstancePort: 10100
+
+
+LB Name: public-alcohol-ultabeauty-pro
+Type: network
+  TG:
+    alcohol-ultabeauty-80-pro
+      Name: None 
+      Id: 172.25.6.252
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.168
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.226
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.171
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.8
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.144
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.75
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.175
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.175
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.79
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.52
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.151
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.170
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.112
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.15
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.87
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+LB Name: priv-metamalote-newscorp-prod-us
+Type: network
+  TG:
+    prod-us-metamalote-newscorp
+      Name: metamalote-1-pro-cloud-newscorp-aws-us-east-1 
+      Id: i-03335d6195513b866
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-2-pro-cloud-newscorp-aws-us-east-1 
+      Id: i-0c3d3479e0af77a0a
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+LB Name: a6b680fae73e046e6ab7f8a4b1ce3f66
+Type: network
+  TG:
+    k8s-nginxint-nginxint-820bc2720f
+  TG:
+    k8s-nginxint-nginxint-8bdc65b5b0
+  TG:
+    k8s-nginxint-nginxint-9acc184f22
+  TG:
+    k8s-nginxint-nginxint-bc45853d6d
+  TG:
+    k8s-nginxint-nginxint-fc837cb801
+LB Name: public-batrasio-nike-pro
+Type: network
+  TG:
+    batrasio-nike-443-pro
+      Name: batrasio-2-pro-cloud-nike-aws-us-east-1 
+      Id: i-06c80ea4d141a2c15
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-4-pro-cloud-nike-aws-us-east-1 
+      Id: i-069a40a9a7d710856
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-1-pro-cloud-nike-aws-us-east-1 
+      Id: i-03efd7f298aec23ce
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-3-pro-cloud-nike-aws-us-east-1 
+      Id: i-07b4d0822afb8c860
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: a8828af4bd08f48e29ccc0476d452347
+Type: network
+  TG:
+    k8s-nginxint-nginxint-1d627d19ce
+      Name: general 
+      Id: i-03211dda6fab8b41b
+      HealthStatus: healthy
+      HealthCheckPort: 30331
+      InstancePort: 31484
+
+
+      Name: eks-tools 
+      Id: i-0073a5e5eaef7f98c
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31484
+
+
+      Name: serviceops 
+      Id: i-0d76ae4e019f2f620
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31484
+
+
+      Name: serviceops 
+      Id: i-0ee0efe4f8d666749
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31484
+
+
+      Name: general 
+      Id: i-05e2bb82eff60f81e
+      HealthStatus: healthy
+      HealthCheckPort: 30331
+      InstancePort: 31484
+
+
+      Name: general 
+      Id: i-061a102806d16f1cb
+      HealthStatus: healthy
+      HealthCheckPort: 30331
+      InstancePort: 31484
+
+
+      Name: serviceops 
+      Id: i-0fb73ab0ae2d144c2
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31484
+
+
+      Name: serviceops 
+      Id: i-07bf2a7ff26ec1edf
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31484
+
+
+      Name: serviceops 
+      Id: i-0022e991a72a93240
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31484
+
+
+      Name: eks-tools 
+      Id: i-069c3e0a0db8a4b85
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31484
+
+
+      Name: general 
+      Id: i-079720f623d9b1558
+      HealthStatus: healthy
+      HealthCheckPort: 30331
+      InstancePort: 31484
+
+
+      Name: serviceops 
+      Id: i-01a2cceb2ebf8178b
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31484
+
+
+      Name: serviceops 
+      Id: i-05db7985414b2aa1d
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31484
+
+
+      Name: eks-tools 
+      Id: i-0b12404f64ba8939d
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31484
+
+
+  TG:
+    k8s-nginxint-nginxint-3c4e7ce36c
+      Name: serviceops 
+      Id: i-0022e991a72a93240
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 30855
+
+
+      Name: general 
+      Id: i-061a102806d16f1cb
+      HealthStatus: healthy
+      HealthCheckPort: 30331
+      InstancePort: 30855
+
+
+      Name: serviceops 
+      Id: i-07bf2a7ff26ec1edf
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 30855
+
+
+      Name: serviceops 
+      Id: i-0d76ae4e019f2f620
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 30855
+
+
+      Name: serviceops 
+      Id: i-01a2cceb2ebf8178b
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 30855
+
+
+      Name: eks-tools 
+      Id: i-0b12404f64ba8939d
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 30855
+
+
+      Name: general 
+      Id: i-079720f623d9b1558
+      HealthStatus: healthy
+      HealthCheckPort: 30331
+      InstancePort: 30855
+
+
+      Name: general 
+      Id: i-05e2bb82eff60f81e
+      HealthStatus: healthy
+      HealthCheckPort: 30331
+      InstancePort: 30855
+
+
+      Name: serviceops 
+      Id: i-0fb73ab0ae2d144c2
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 30855
+
+
+      Name: general 
+      Id: i-03211dda6fab8b41b
+      HealthStatus: healthy
+      HealthCheckPort: 30331
+      InstancePort: 30855
+
+
+      Name: eks-tools 
+      Id: i-069c3e0a0db8a4b85
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 30855
+
+
+      Name: serviceops 
+      Id: i-05db7985414b2aa1d
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 30855
+
+
+      Name: eks-tools 
+      Id: i-0073a5e5eaef7f98c
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 30855
+
+
+      Name: serviceops 
+      Id: i-0ee0efe4f8d666749
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 30855
+
+
+  TG:
+    k8s-nginxint-nginxint-93e7f8ac59
+      Name: serviceops 
+      Id: i-0022e991a72a93240
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 32709
+
+
+      Name: serviceops 
+      Id: i-07bf2a7ff26ec1edf
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 32709
+
+
+      Name: eks-tools 
+      Id: i-069c3e0a0db8a4b85
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 32709
+
+
+      Name: serviceops 
+      Id: i-05db7985414b2aa1d
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 32709
+
+
+      Name: serviceops 
+      Id: i-01a2cceb2ebf8178b
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 32709
+
+
+      Name: eks-tools 
+      Id: i-0b12404f64ba8939d
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 32709
+
+
+      Name: general 
+      Id: i-079720f623d9b1558
+      HealthStatus: healthy
+      HealthCheckPort: 30331
+      InstancePort: 32709
+
+
+      Name: serviceops 
+      Id: i-0ee0efe4f8d666749
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 32709
+
+
+      Name: eks-tools 
+      Id: i-0073a5e5eaef7f98c
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 32709
+
+
+      Name: serviceops 
+      Id: i-0d76ae4e019f2f620
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 32709
+
+
+      Name: general 
+      Id: i-03211dda6fab8b41b
+      HealthStatus: healthy
+      HealthCheckPort: 30331
+      InstancePort: 32709
+
+
+      Name: general 
+      Id: i-05e2bb82eff60f81e
+      HealthStatus: healthy
+      HealthCheckPort: 30331
+      InstancePort: 32709
+
+
+      Name: general 
+      Id: i-061a102806d16f1cb
+      HealthStatus: healthy
+      HealthCheckPort: 30331
+      InstancePort: 32709
+
+
+      Name: serviceops 
+      Id: i-0fb73ab0ae2d144c2
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 32709
+
+
+  TG:
+    k8s-nginxint-nginxint-946b96473c
+      Name: serviceops 
+      Id: i-0ee0efe4f8d666749
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31064
+
+
+      Name: eks-tools 
+      Id: i-0073a5e5eaef7f98c
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31064
+
+
+      Name: serviceops 
+      Id: i-0d76ae4e019f2f620
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31064
+
+
+      Name: general 
+      Id: i-03211dda6fab8b41b
+      HealthStatus: healthy
+      HealthCheckPort: 30331
+      InstancePort: 31064
+
+
+      Name: general 
+      Id: i-05e2bb82eff60f81e
+      HealthStatus: healthy
+      HealthCheckPort: 30331
+      InstancePort: 31064
+
+
+      Name: general 
+      Id: i-061a102806d16f1cb
+      HealthStatus: healthy
+      HealthCheckPort: 30331
+      InstancePort: 31064
+
+
+      Name: serviceops 
+      Id: i-0fb73ab0ae2d144c2
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31064
+
+
+      Name: serviceops 
+      Id: i-0022e991a72a93240
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31064
+
+
+      Name: eks-tools 
+      Id: i-069c3e0a0db8a4b85
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31064
+
+
+      Name: serviceops 
+      Id: i-01a2cceb2ebf8178b
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31064
+
+
+      Name: serviceops 
+      Id: i-05db7985414b2aa1d
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31064
+
+
+      Name: general 
+      Id: i-079720f623d9b1558
+      HealthStatus: healthy
+      HealthCheckPort: 30331
+      InstancePort: 31064
+
+
+      Name: eks-tools 
+      Id: i-0b12404f64ba8939d
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31064
+
+
+      Name: serviceops 
+      Id: i-07bf2a7ff26ec1edf
+      HealthStatus: unhealthy
+      HealthCheckPort: 30331
+      InstancePort: 31064
+
+
+LB Name: public-batrasio-magna-pro
+Type: network
+  TG:
+    batrasio-magna-443-pro
+      Name: batrasio-1-pro-cloud-magna-aws-us-east-1 
+      Id: i-005f5012a4bf39468
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-2-pro-cloud-magna-aws-us-east-1 
+      Id: i-02d225a9cac778551
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: private-batrasio-optivmdr-pro
+Type: network
+  TG:
+    batrasio-optivmdr-1514-pro
+      Name: batrasio-2-pro-cloud-optivmdr-aws-us-east-1 
+      Id: i-0723eb275f3eee743
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+      Name: batrasio-1-pro-cloud-optivmdr-aws-us-east-1 
+      Id: i-0b3c55812d319ac70
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+  TG:
+    batrasio-optivmdr-1515-pro
+      Name: batrasio-1-pro-cloud-optivmdr-aws-us-east-1 
+      Id: i-0b3c55812d319ac70
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+      Name: batrasio-2-pro-cloud-optivmdr-aws-us-east-1 
+      Id: i-0723eb275f3eee743
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+LB Name: a200d7fe5993e43bc89e4263c381ddaa
+Type: network
+  TG:
+    k8s-nginxpub-nginxpub-a8fa8adde8
+      Name: serviceops 
+      Id: i-05db7985414b2aa1d
+      HealthStatus: unhealthy
+      HealthCheckPort: 31167
+      InstancePort: 32368
+
+
+      Name: serviceops 
+      Id: i-0fb73ab0ae2d144c2
+      HealthStatus: unhealthy
+      HealthCheckPort: 31167
+      InstancePort: 32368
+
+
+      Name: general 
+      Id: i-061a102806d16f1cb
+      HealthStatus: healthy
+      HealthCheckPort: 31167
+      InstancePort: 32368
+
+
+      Name: eks-tools 
+      Id: i-069c3e0a0db8a4b85
+      HealthStatus: unhealthy
+      HealthCheckPort: 31167
+      InstancePort: 32368
+
+
+      Name: general 
+      Id: i-079720f623d9b1558
+      HealthStatus: healthy
+      HealthCheckPort: 31167
+      InstancePort: 32368
+
+
+      Name: serviceops 
+      Id: i-07bf2a7ff26ec1edf
+      HealthStatus: unhealthy
+      HealthCheckPort: 31167
+      InstancePort: 32368
+
+
+      Name: serviceops 
+      Id: i-01a2cceb2ebf8178b
+      HealthStatus: unhealthy
+      HealthCheckPort: 31167
+      InstancePort: 32368
+
+
+      Name: general 
+      Id: i-05e2bb82eff60f81e
+      HealthStatus: healthy
+      HealthCheckPort: 31167
+      InstancePort: 32368
+
+
+      Name: eks-tools 
+      Id: i-0b12404f64ba8939d
+      HealthStatus: unhealthy
+      HealthCheckPort: 31167
+      InstancePort: 32368
+
+
+      Name: eks-tools 
+      Id: i-0073a5e5eaef7f98c
+      HealthStatus: unhealthy
+      HealthCheckPort: 31167
+      InstancePort: 32368
+
+
+      Name: serviceops 
+      Id: i-0d76ae4e019f2f620
+      HealthStatus: unhealthy
+      HealthCheckPort: 31167
+      InstancePort: 32368
+
+
+      Name: serviceops 
+      Id: i-0ee0efe4f8d666749
+      HealthStatus: unhealthy
+      HealthCheckPort: 31167
+      InstancePort: 32368
+
+
+      Name: serviceops 
+      Id: i-0022e991a72a93240
+      HealthStatus: unhealthy
+      HealthCheckPort: 31167
+      InstancePort: 32368
+
+
+      Name: general 
+      Id: i-03211dda6fab8b41b
+      HealthStatus: healthy
+      HealthCheckPort: 31167
+      InstancePort: 32368
+
+
+LB Name: public-alcohol-optivmdr-pro
+Type: network
+  TG:
+    alcohol-optivmdr-http-pro
+      Name: None 
+      Id: 172.25.9.66
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.194
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.69
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.149
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.42
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.122
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.126
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.107
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.225
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.110
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.202
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.19
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.94
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.116
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.124
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.252
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.231
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.68
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.100
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.146
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.180
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.167
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.253
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.16
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.138
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.70
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.26
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.60
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.199
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.124
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.131
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.31
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.154
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.160
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.50
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.131
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.240
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.166
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.77
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.39
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.92
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.139
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.118
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.86
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.215
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.179
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.61
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.129
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.102
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.61
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.55
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.130
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.245
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.51
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.76
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.59
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+LB Name: priv-metamalote-shared3-us
+Type: network
+  TG:
+    us-metamalote-shared3
+      Name: metamalote-3-pro-cloud-shared3-aws-us-east-1 
+      Id: i-04c4661ee53d99ca7
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-4-pro-cloud-shared3-aws-us-east-1 
+      Id: i-05540df863e9fa170
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-5-pro-cloud-shared3-aws-us-east-1 
+      Id: i-0d6cc50c001431f10
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-1-pro-cloud-shared3-aws-us-east-1 
+      Id: i-0e01d2724122f07a2
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-2-pro-cloud-shared3-aws-us-east-1 
+      Id: i-02e5c080116db742a
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+LB Name: AlcoholHTTPNikeExtraHop
+Type: network
+  TG:
+    Alcohol-HTTP-80-Nike-ExtraHop
+      Name: None 
+      Id: 172.25.21.220
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.86
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.114
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.190
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.4
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.117
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.199
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.222
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+LB Name: private-bastion-prod-us
+Type: network
+  TG:
+    prod-us-bastion
+      Name: bastion-1-pro-cloud-general-aws-us-east-1 
+      Id: i-00802a735a2df1d70
+      HealthStatus: healthy
+      HealthCheckPort: 22
+      InstancePort: 10100
+
+
+      Name: bastion-2-pro-cloud-general-aws-us-east-1 
+      Id: i-02b5354c2ac113c94
+      HealthStatus: healthy
+      HealthCheckPort: 22
+      InstancePort: 10100
+
+
+LB Name: private-batrasio-magna-pro
+Type: network
+  TG:
+    batrasio-magna-1514-pro
+      Name: batrasio-2-pro-cloud-magna-aws-us-east-1 
+      Id: i-02d225a9cac778551
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+      Name: batrasio-1-pro-cloud-magna-aws-us-east-1 
+      Id: i-005f5012a4bf39468
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+  TG:
+    batrasio-magna-1515-pro
+      Name: batrasio-2-pro-cloud-magna-aws-us-east-1 
+      Id: i-02d225a9cac778551
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+      Name: batrasio-1-pro-cloud-magna-aws-us-east-1 
+      Id: i-005f5012a4bf39468
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+LB Name: public-alcohol-http-newscorp
+Type: network
+  TG:
+    alcohol-newscorp-http-80
+      Name: None 
+      Id: 172.25.9.245
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.33
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.22
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.115
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.146
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.232
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.214
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.48
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.83
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.212
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.64
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.152
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.181
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.12
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.58
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.10
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.96
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.221
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.202
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.162
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.246
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.114
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.145
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.73
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.143
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.49
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.88
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.82
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.232
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.119
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.9.86
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.91
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+LB Name: public-batrasio-euw1-use1
+Type: network
+  TG:
+    euw1-use1-batrasio-http
+      Name: batrasio-2-pro-cloud-peer-euw1-aws-us-east-1 
+      Id: i-030a6fc82e2ab4357
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+      Name: batrasio-1-pro-cloud-peer-euw1-aws-us-east-1 
+      Id: i-052040dc694f7feba
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+  TG:
+    euw1-use1-batrasio-syslog
+      Name: batrasio-2-pro-cloud-peer-euw1-aws-us-east-1 
+      Id: i-030a6fc82e2ab4357
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-1-pro-cloud-peer-euw1-aws-us-east-1 
+      Id: i-052040dc694f7feba
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: public-alcohol-nike-pro
+Type: network
+  TG:
+    alcohol-nike-80-pro
+      Name: None 
+      Id: 172.25.5.11
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.34
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.165
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.42.158
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.236
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.27
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.131
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.119
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.107
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.145
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.17
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.165
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.210
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.199
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.222
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.211
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.10
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.166
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.118
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.79
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.91
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.223
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.70
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.237
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.150
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.128
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.109
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.143
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.164
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.66
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.199
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.43
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.245
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.42
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.248
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.188
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.98
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.77
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.180
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.130
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.129
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.177
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.21
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.234
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.33
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.39
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.146
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.190
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.164
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.232
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.97
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.54
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.181
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.223
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.141
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.52
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.212
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.193
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.109
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.56
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.130
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.92
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.247
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.47.134
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.51
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.175
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.129
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.163
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.65
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.246
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.52
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.81
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.20
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.244
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.63
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.44.19
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.19
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.224
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.53
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.198
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.29
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.151
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.108
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.220
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.142
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.213
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.224
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.42
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.87
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.251
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.142
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.225
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.202
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.248
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.35
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.213
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.58
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.122
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.145
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.7
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.168
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.239
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.204
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.39.195
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.134
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.66
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.130
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.90
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.179
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.69
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.23
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.39.1
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.144
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.228
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.20
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.33
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.56
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.110
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.99
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.24
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.38.18
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.112
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.154
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.191
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.237
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.214
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.88
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.157
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.180
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.19
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.212
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.203
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.78
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.199
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.155
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.217
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.42.16
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.146
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.32.18
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.8
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.188
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.67
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.112
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.117
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.190
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.100
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.77
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.21
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.76
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.31
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.68
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.250
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.166
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.22
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.45
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.40.245
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.155
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.143
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.226
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.34
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.132
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.144
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.6
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.10
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.215
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.133
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.140
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.43
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.144
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.156
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.33
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.189
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.204
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.227
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.131
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.214
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.99
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.47.181
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.154
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.35.221
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.32
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.66
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.202
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.111
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.227
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.225
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.11
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.190
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.167
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.176
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.78
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.90
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.111
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.238
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.40.140
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.20
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.67
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.238
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.54
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.160
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.37.100
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.12
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.35
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.183
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.58
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.28
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.93
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.240
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.26
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.239
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.49
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.216
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.242
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.162
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.239
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.254
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.159
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.147
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.197
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.148
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.219
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.98
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.23
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.39
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.102
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.61
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.36.196
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.140
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.9
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.102
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.72
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.196
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.37
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.124
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.44
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.158
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.135
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.172
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.81
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.47
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.101
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.15
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.231
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.36
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.27
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.215
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.178
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.194
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.251
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.158
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.175
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.198
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.97
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.126
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.40.248
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.60
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.103
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.30
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.229
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.218
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.86
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.182
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.103
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.32.96
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.195
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.71
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.238
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.229
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.111
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.7
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.48
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.228
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.114
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.181
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.125
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.102
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.196
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.79
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.207
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.147
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.51
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.47
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.252
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.136
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.241
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.36
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.96
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.125
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.241
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.134
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.80
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.205
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.230
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.219
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.171
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.139
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.93
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.116
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.197
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.48
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.254
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.49
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.242
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.151
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.174
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.95
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.44.78
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.64
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.231
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.186
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.38
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.61
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.30
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.17
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.208
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.75
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.180
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.148
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.82
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.113
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.207
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.140
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.46.167
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.205
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.185
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.62
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.5
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.192
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.150
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.14
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.52
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.18
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.242
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.183
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.218
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.6
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.160
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.63
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.220
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.163
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.94
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.115
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.47
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.129
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.152
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.161
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.6.13
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.244
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.60
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.43.46
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.209
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.39
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.181
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.74
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.149
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.4
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.114
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.149
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.149
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.40
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.170
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.138
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.117
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.71
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.51
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.232
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.150
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.243
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.196
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.106
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.49
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.43.243
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.106
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.48
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.40.156
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.37
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.253
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.162
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.150
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.125
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.47.175
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.95
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.44.89
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.195
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.160
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.244
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.105
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.128
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.208
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.221
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.210
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.15
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.139
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.4.94
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.73
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.173
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.5
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.5.71
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+      Name: None 
+      Id: 172.25.21.84
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 80
+
+
+LB Name: private-metamalote-prod-us
+Type: network
+  TG:
+    prod-us-metamalote
+      Name: metamalote-2-pro-cloud-general-aws-us-east-1 
+      Id: i-055bba7fc3303d881
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-1-pro-cloud-general-aws-us-east-1 
+      Id: i-05c72b3e20428ae0e
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-4-pro-cloud-general-aws-us-east-1 
+      Id: i-0f20845c955179ebf
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-5-pro-cloud-general-aws-us-east-1 
+      Id: i-0def71ccc19dc9517
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-3-pro-cloud-general-aws-us-east-1 
+      Id: i-07d8ff3f40ac92849
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+LB Name: private-batrasio-newscorp-pro
+Type: network
+  TG:
+    batrasio-newscorp-1515-pro
+      Name: batrasio-2-pro-cloud-newscorp-aws-us-east-1 
+      Id: i-061d80ae7d26a5d0f
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+      Name: batrasio-1-pro-cloud-newscorp-aws-us-east-1 
+      Id: i-06927dca9ebb6df58
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+LB Name: aa3b6958078b24df39e049d8b27dcf6b
+Type: network
+  TG:
+    k8s-nginxpub-nginxpub-fda018f20c
+LB Name: public-alcohol-shared-pro
+Type: network
+  TG:
+    batrasio-http-shared-443
+      Name: batrasio-3-pro-cloud-shared-aws-us-east-1 
+      Id: i-048bc47ef7a606e0e
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+      Name: batrasio-1-pro-cloud-shared-aws-us-east-1 
+      Id: i-004af32bb64bd59ac
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+      Name: batrasio-2-pro-cloud-shared-aws-us-east-1 
+      Id: i-06241cbe8a5d0c2eb
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+      Name: batrasio-5-pro-cloud-shared-aws-us-east-1 
+      Id: i-0e8ac2525444ac8f0
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+      Name: batrasio-4-pro-cloud-shared-aws-us-east-1 
+      Id: i-0f654cb48b2b06aaf
+      HealthStatus: healthy
+      HealthCheckPort: 8443
+      InstancePort: 8443
+
+
+LB Name: public-batrasio-shared-prod-us
+Type: network
+  TG:
+    prod-us-batrasio-shared-syslog
+      Name: batrasio-5-pro-cloud-shared-aws-us-east-1 
+      Id: i-0e8ac2525444ac8f0
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-2-pro-cloud-shared-aws-us-east-1 
+      Id: i-06241cbe8a5d0c2eb
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-3-pro-cloud-shared-aws-us-east-1 
+      Id: i-048bc47ef7a606e0e
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-4-pro-cloud-shared-aws-us-east-1 
+      Id: i-0f654cb48b2b06aaf
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-1-pro-cloud-shared-aws-us-east-1 
+      Id: i-004af32bb64bd59ac
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: priv-metamalote-shared1-us
+Type: network
+  TG:
+    us-metamalote-shared1
+      Name: metamalote-3-pro-cloud-shared1-aws-us-east-1 
+      Id: i-0b4243eb268570c9c
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-2-pro-cloud-shared1-aws-us-east-1 
+      Id: i-092795d8037857d96
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-1-pro-cloud-shared1-aws-us-east-1 
+      Id: i-09347c37bc2150d9e
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-4-pro-cloud-shared1-aws-us-east-1 
+      Id: i-0b473d02054be01a1
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+      Name: metamalote-5-pro-cloud-shared1-aws-us-east-1 
+      Id: i-08ba65999408ffd8c
+      HealthStatus: healthy
+      HealthCheckPort: 10000
+      InstancePort: 10100
+
+
+LB Name: private-batrasio-att-pro
+Type: network
+  TG:
+    batrasio-att-1514-pro
+      Name: batrasio-2-pro-cloud-att-aws-us-east-1  
+      Id: i-007174c4d3e0defcc
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+      Name: batrasio-1-pro-cloud-att-aws-us-east-1 
+      Id: i-07c94d22d582762dd
+      HealthStatus: healthy
+      HealthCheckPort: 1514
+      InstancePort: 1514
+
+
+  TG:
+    batrasio-att-1515-pro
+      Name: batrasio-2-pro-cloud-att-aws-us-east-1  
+      Id: i-007174c4d3e0defcc
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+      Name: batrasio-1-pro-cloud-att-aws-us-east-1 
+      Id: i-07c94d22d582762dd
+      HealthStatus: healthy
+      HealthCheckPort: 1515
+      InstancePort: 1515
+
+
+LB Name: public-batrasio-ultabeauty-pro
+Type: network
+  TG:
+    batrasio-ultabeauty-443-pro
+      Name: batrasio-2-pro-cloud-ultabeauty-aws-us-east-1 
+      Id: i-02aca2a4103161ff5
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: batrasio-1-pro-cloud-ultabeauty-aws-us-east-1 
+      Id: i-0762b8f7583516d82
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: public-api-pro
+Type: application
+  TG:
+    k8s-forward-internal
+      Name: None 
+      Id: 172.25.70.145
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 443
+
+
+      Name: None 
+      Id: 172.25.59.246
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 443
+
+
+      Name: None 
+      Id: 172.25.44.15
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 443
+
+
+  TG:
+    public-api-lookups-pro
+      Name: lookup-2-prod-us-cloud-shared-aws-us-east-1 
+      Id: i-05ea5b6d4e656420a
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: lookup-1-prod-us-cloud-shared-aws-us-east-1 
+      Id: i-0be749a4a468f5753
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: public-app-pro
+Type: application
+  TG:
+    k8s-forward-internal-app
+      Name: None 
+      Id: 172.25.70.145
+      HealthStatus: unused
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: None 
+      Id: 172.25.59.246
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: None 
+      Id: 172.25.44.15
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+  TG:
+    prod-us-webapp-genesis-public
+  TG:
+    public-app-https-pro
+      Name: webapp-2-pro-cloud-shared-aws-us-east-1 
+      Id: i-0bed2a6d2608b4b09
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: webapp-1-pro-cloud-shared-aws-us-east-1 
+      Id: i-0f10ea01b28d01a8e
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: webapp-3-pro-cloud-shared-aws-us-east-1 
+      Id: i-02f954c28e6fa054c
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+LB Name: private-api-tapu-pro
+Type: application
+  TG:
+    k8s-forward-tapu
+      Name: None 
+      Id: 172.25.70.145
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 443
+
+
+      Name: None 
+      Id: 172.25.59.246
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 443
+
+
+      Name: None 
+      Id: 172.25.44.15
+      HealthStatus: healthy
+      HealthCheckPort: 80
+      InstancePort: 443
+
+
+  TG:
+    private-amnesia-pro
+  TG:
+    private-api-lookups-pro
+      Name: lookup-2-prod-us-cloud-shared-aws-us-east-1 
+      Id: i-05ea5b6d4e656420a
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+      Name: lookup-1-prod-us-cloud-shared-aws-us-east-1 
+      Id: i-0be749a4a468f5753
+      HealthStatus: healthy
+      HealthCheckPort: 443
+      InstancePort: 443
+
+
+  TG:
+    private-api-maduro-pro
+  TG:
+    private-api-tapu-pro
+LB Name: logtrus-com-redirector
+Type: application
+LB Name: monitoring-cluster
+Type: application
+  TG:
+    monitoring-cluster-9090
+      Name: monitoring-2-infra-cloud-noc-aws-us-east-1 
+      Id: i-0627b8b84d1cb260e
+      HealthStatus: healthy
+      HealthCheckPort: 9090
+      InstancePort: 9090
+
+
+      Name: monitoring-1-infra-cloud-noc-aws-us-east-1 
+      Id: i-06e3953b205827aef
+      HealthStatus: healthy
+      HealthCheckPort: 9090
+      InstancePort: 9090
+
+
+  TG:
+    monitoring-cluster-9093
+      Name: monitoring-2-infra-cloud-noc-aws-us-east-1 
+      Id: i-0627b8b84d1cb260e
+      HealthStatus: healthy
+      HealthCheckPort: 9093
+      InstancePort: 9093
+
+
+      Name: monitoring-1-infra-cloud-noc-aws-us-east-1 
+      Id: i-06e3953b205827aef
+      HealthStatus: healthy
+      HealthCheckPort: 9093
+      InstancePort: 9093
+
+
